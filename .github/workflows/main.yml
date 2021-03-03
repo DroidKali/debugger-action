@@ -1,12 +1,12 @@
-name: Kali
+name: Ubuntu
 
 on: [push]
 
 jobs:
 
-  Kali:
+  Ubuntu:
   
-    runs-on: kalilinux/kali-rolling
+    runs-on: ubuntu-latest
     
     steps:
     
